@@ -1,0 +1,37 @@
+# Sales Data Cleaner (ETL Pipeline)
+
+
+## 1. Project Title & Goal
+This project cleans a messy sales CSV file and converts it into structured JSON data using a Pandas-based ETL (Extract, Transform, Load) pipeline.
+
+## 2. Setup Instructions
+
+### Prerequisites
+- Python 3.8 or above
+
+### Steps to Run 
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## 3. The Logic (How I Thought)
+
+a. Why did I choose this approach?
+
+As an AI/DS student, I understand that data preprocessing is the most critical step in any machine learning pipeline. I chose Pandas because it is the industry-standard library for data cleaning and transformation, especially when working with larger datasets. Pandas enables efficient, readable, and scalable data processing through vectorized operations.
+
+b. What was the hardest bug you faced, and how did you fix it?
+
+One issue I faced was handling CSV headers while converting price values to float. Pandas was trying to cast the header string as data. I fixed this by explicitly handling the header and cleaning the column before type conversion.
+
+```
+
+
+
+
+
+
+
+
+
