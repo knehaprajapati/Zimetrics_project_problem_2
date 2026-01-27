@@ -27,7 +27,7 @@ One issue I faced was handling CSV headers while converting price values to floa
 
 4. Output Screenshots: Embed the images proving your code works (as requested in the problem statement):
 ```
-- ![Clean Sales Output](screenshots/clean_sales_output.png)
+- ![Clean Sales Output](screenshot/cleaned_sales.png)
 ```
 
 
